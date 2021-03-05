@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Appointment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/appointment.css">
+</head>
+<body>
+    <!-- appointment part start -->
+    <section id="appo_part">
+        <div class="container">
+            <div class="title">
+                <h2>Get an Appointment
+                    <img src="images/title-shape.jpg" alt="title-shape.jpg">
+                </h2>
+            </div>
+            <form action="#">
+                <div class="form-row">
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <label for="validationDefault01">Your first name here</label>
+                    <input type="text" class="form-control" id="validationDefault01" required>
+                  </div>
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <label for="validationDefault02">Your last name here</label>
+                    <input type="text" class="form-control" id="validationDefault02" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <label for="validationDefault03">Your e-mail here</label>
+                        <input type="email" class="form-control" id="validationDefault03" required>
+                      </div>
+                      <div class="col-lg-6 col-md-6 mb-3">
+                        <label for="validationDefault04">Your phone number here</label>
+                        <input type="tel" class="form-control" id="validationDefault04" required>
+                      </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-4 col-md-4 mb-3">
+                        <label for="validationDefault05">Your age here</label>
+                        <input type="number" class="form-control" id="validationDefault05" required>
+                      </div>
+                      <div class="col-lg-4 col-md-4 mb-3">
+                        <label for="validationDefault06">Your gender here</label>
+                        <select class="form-control" id="validationDefault06" required>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                        </select>
+                      </div>
+                      <div class="col-lg-4 col-md-4 mb-3">
+                        <label for="validationDefault07">Pick your date & time</label>
+                        <input type="datetime-local" class="form-control" id="validationDefault07" required>
+                      </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <label for="validationDefault08">Your country here</label>
+                    <select class="form-control" id="validationDefault08" required>
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>Others</option>
+                </select>
+                  </div>
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <label for="validationDefault09">Your city here</label>
+                    <select class="form-control" id="validationDefault09" required>
+                        <option>Dhaka</option>
+                        <option>Barishal</option>
+                        <option>Others</option>
+                </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                      <label for="validationDefault10">Your message here</label>
+                      <textarea name="text" class="form-control" id="validationDefault10"></textarea>
+                    </div>
+                  </div>
+                <div class="form_button">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+              </form>
+        </div>
+    </section>
+    <!-- appointment part end -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

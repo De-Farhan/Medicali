@@ -1,0 +1,1098 @@
+/*------------ start responsive index ------------*/
+/*------------ start responsive extra small device -------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  /*----------- common responsive star -----------*/
+  .title h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center; }
+    .title h2 img {
+      width: 100%;
+      height: 2px;
+      margin: 0 auto; }
+
+  /*----------- common responsive end -----------*/
+  /*----------- navbar part start -----------*/
+  #navbar {
+    padding: 14px 0; }
+    #navbar [class|="container"] {
+      padding: 0 15px; }
+    #navbar .navbar-brand img {
+      width: 70%; }
+    #navbar button {
+      padding: 0; }
+      #navbar button .navbar-toggler-icon {
+        width: auto;
+        height: auto; }
+        #navbar button .navbar-toggler-icon i {
+          font-size: 25px;
+          -webkit-transition: linear 0.4s;
+          transition: linear 0.4s; }
+        #navbar button .navbar-toggler-icon:hover i {
+          color: #ef3e78; }
+      #navbar button:focus {
+        outline: none; }
+    #navbar ul {
+      margin-top: 12px; }
+      #navbar ul li a {
+        padding: 5px 0;
+        margin-left: 10px; }
+      #navbar ul li ul {
+        bottom: -25px;
+        left: -5px;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        z-index: 999; }
+        #navbar ul li ul li a {
+          background: #999999;
+          padding: 4px 8px; }
+      #navbar ul #check_status a {
+        padding: 5px 0 !important;
+        margin-left: 0;
+        width: 100%;
+        text-align: center; }
+
+  /*----------- navbar part end -----------*/
+  /*----------- banner part start -----------*/
+  #banner_part {
+    margin-top: 56px; }
+    #banner_part .text {
+      padding: 60px 0; }
+      #banner_part .text h5 {
+        font-size: 22px; }
+      #banner_part .text h2 {
+        font-size: 46px; }
+      #banner_part .text p {
+        padding: 20px 0; }
+      #banner_part .text a {
+        padding: 8px 30px; }
+
+  /*----------- banner part end -----------*/
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0; }
+    #about_part .about_text .details p:last-child {
+      padding: 16px 0; }
+    #about_part .about_text a {
+      padding: 8px 30px; }
+
+  /*----------- about part end -----------*/
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px; }
+    #symp_part .symp_img {
+      margin-top: 60px;
+      margin: 60px auto auto auto; }
+    #symp_part .symp_text h2 {
+      font-size: 30px; }
+
+  /*----------- symp part end -----------*/
+  /*----------- preve part start -----------*/
+  #preve_part .preve_part {
+    padding-top: 60px;
+    padding-bottom: 0; }
+    #preve_part .preve_part #down_btn i {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 22px; }
+    #preve_part .preve_part .preve_item .img {
+      text-align: center; }
+    #preve_part .preve_part .preve_item .text {
+      text-align: center;
+      margin-top: 16px; }
+
+  /*----------- preve part end -----------*/
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px; }
+    #coses_part .coses_part {
+      padding-top: 60px;
+      padding-bottom: 30px; }
+      #coses_part .coses_part #down_btn a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px; }
+      #coses_part .coses_part .table_content {
+        overflow-x: auto; }
+        #coses_part .coses_part .table_content table {
+          margin-bottom: 20px; }
+          #coses_part .coses_part .table_content table thead tr th {
+            font-size: 22px; }
+            #coses_part .coses_part .table_content table thead tr th:first-child {
+              padding-left: 30px; }
+          #coses_part .coses_part .table_content table tbody tr th,
+          #coses_part .coses_part .table_content table tbody tr td {
+            font-size: 16px; }
+      #coses_part .coses_part .coses_btn {
+        margin-top: 20px; }
+        #coses_part .coses_part .coses_btn a {
+          padding: 8px 30px; }
+
+  /*----------- coses part end -----------*/
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px; }
+    #doctors_part .row [class|="col"] {
+      margin-bottom: 80px; }
+      #doctors_part .row [class|="col"]:last-child {
+        margin-bottom: 0; }
+    #doctors_part .doctors_item .doctor_img {
+      width: auto; }
+
+  /*----------- doctors part end -----------*/
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px; }
+    #updates_part .left_content .content_text h3 {
+      font-size: 26px; }
+    #updates_part .left_content,
+    #updates_part .right_content {
+      text-align: center;
+      margin-bottom: 30px; }
+    #updates_part .right_content:last-child {
+      padding-top: 0; }
+    #updates_part .right_content .date {
+      margin-top: 10px; }
+    #updates_part .updates_btn {
+      margin-top: 0; }
+      #updates_part .updates_btn a {
+        padding: 8px 30px; }
+
+  /*----------- updates part end -----------*/
+  /*----------- footer part start -----------*/
+  #footer_part .footer_text .img img {
+    width: 90px; }
+  #footer_part .footer_text .footer_details p:first-child {
+    padding: 16px 0; }
+  #footer_part .footer_links ul li {
+    margin-top: 16px; }
+  #footer_part .contact ul li {
+    margin-top: 16px; }
+    #footer_part .contact ul li .contact_icon i {
+      margin-right: 20px; }
+  #footer_part .copyright p {
+    padding: 16px 0; }
+
+  /*----------- footer part end -----------*/ }
+/*------------ end responsive extra small device -------------*/
+/*------------ start responsive small device -------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /*----------- common responsive star -----------*/
+  .title h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center; }
+    .title h2 img {
+      width: 100%;
+      height: 2px;
+      margin: 0 auto; }
+
+  /*----------- common responsive end -----------*/
+  /*----------- navbar part start -----------*/
+  #navbar {
+    padding: 14px 0; }
+    #navbar [class|="container"] {
+      padding: 0 15px; }
+    #navbar .navbar-brand img {
+      width: 70%; }
+    #navbar button {
+      padding: 0; }
+      #navbar button .navbar-toggler-icon {
+        width: auto;
+        height: auto; }
+        #navbar button .navbar-toggler-icon i {
+          font-size: 25px;
+          -webkit-transition: linear 0.4s;
+          transition: linear 0.4s; }
+        #navbar button .navbar-toggler-icon:hover i {
+          color: #ef3e78; }
+      #navbar button:focus {
+        outline: none; }
+    #navbar ul {
+      margin-top: 12px; }
+      #navbar ul li a {
+        padding: 5px 0;
+        margin-left: 10px; }
+      #navbar ul li ul {
+        bottom: -25px;
+        left: -5px;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        z-index: 999; }
+        #navbar ul li ul li a {
+          background: #999999;
+          padding: 4px 8px; }
+      #navbar ul #check_status a {
+        padding: 5px 0 !important;
+        margin-left: 0;
+        width: 100%;
+        text-align: center; }
+
+  /*----------- navbar part end -----------*/
+  /*----------- banner part start -----------*/
+  #banner_part {
+    margin-top: 56px; }
+    #banner_part .text {
+      padding: 60px 0; }
+      #banner_part .text h5 {
+        font-size: 22px; }
+      #banner_part .text h2 {
+        font-size: 46px; }
+      #banner_part .text p {
+        padding: 20px 0; }
+      #banner_part .text a {
+        padding: 8px 30px; }
+
+  /*----------- banner part end -----------*/
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0; }
+    #about_part .about_text .details p:last-child {
+      padding: 16px 0; }
+    #about_part .about_text a {
+      padding: 8px 30px; }
+
+  /*----------- about part end -----------*/
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px; }
+    #symp_part .symp_img {
+      width: 220px;
+      height: 220px;
+      margin-top: 60px;
+      margin: 60px auto auto auto; }
+    #symp_part .symp_text h2 {
+      font-size: 30px; }
+
+  /*----------- symp part end -----------*/
+  /*----------- preve part start -----------*/
+  #preve_part .preve_part {
+    padding-top: 60px;
+    padding-bottom: 0; }
+    #preve_part .preve_part #down_btn i {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 22px; }
+    #preve_part .preve_part .preve_item .img {
+      text-align: center; }
+    #preve_part .preve_part .preve_item .text {
+      width: 100%;
+      margin-top: 16px; }
+
+  /*----------- preve part end -----------*/
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px; }
+    #coses_part .coses_part {
+      padding-top: 60px;
+      padding-bottom: 30px; }
+      #coses_part .coses_part #down_btn a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px; }
+      #coses_part .coses_part .table_content {
+        overflow-x: auto; }
+        #coses_part .coses_part .table_content table {
+          margin-bottom: 20px; }
+          #coses_part .coses_part .table_content table thead tr th {
+            font-size: 22px; }
+            #coses_part .coses_part .table_content table thead tr th:first-child {
+              padding-left: 30px; }
+          #coses_part .coses_part .table_content table tbody tr th,
+          #coses_part .coses_part .table_content table tbody tr td {
+            font-size: 16px; }
+      #coses_part .coses_part .coses_btn {
+        margin-top: 20px; }
+        #coses_part .coses_part .coses_btn a {
+          padding: 8px 30px; }
+
+  /*----------- coses part end -----------*/
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px; }
+    #doctors_part .row [class|="col"] {
+      margin-bottom: 100px; }
+      #doctors_part .row [class|="col"]:last-child {
+        margin-bottom: 0; }
+    #doctors_part .doctors_item .doctor_img {
+      width: 400px;
+      margin: 0 auto; }
+    #doctors_part .doctors_item .doctor_text {
+      width: 50%; }
+
+  /*----------- doctors part end -----------*/
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px; }
+    #updates_part .left_content .content_text h3 {
+      font-size: 26px; }
+    #updates_part .left_content,
+    #updates_part .right_content {
+      width: 400px;
+      margin: auto auto 30px auto;
+      text-align: center; }
+    #updates_part .right_content:last-child {
+      padding-top: 0; }
+    #updates_part .right_content .date {
+      margin-top: 10px; }
+    #updates_part .updates_btn {
+      margin-top: 0; }
+      #updates_part .updates_btn a {
+        padding: 8px 30px; }
+
+  /*----------- updates part end -----------*/
+  /*----------- footer part start -----------*/
+  #footer_part {
+    font-size: 16px; }
+    #footer_part .footer_text .img img {
+      width: 90px; }
+    #footer_part .footer_text .footer_details p:first-child {
+      padding: 16px 0; }
+    #footer_part .footer_links ul li {
+      margin-top: 16px; }
+    #footer_part .contact ul li {
+      margin-top: 16px; }
+      #footer_part .contact ul li .contact_icon i {
+        margin-right: 20px; }
+    #footer_part .copyright p {
+      padding: 16px 0; }
+
+  /*----------- footer part end -----------*/ }
+/*------------ end responsive small device -------------*/
+/*------------ start responsive medium device -------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*----------- common responsive star -----------*/
+  .title h2 {
+    margin-bottom: 30px;
+    text-align: center; }
+    .title h2 img {
+      width: 100%;
+      height: 2px;
+      margin: 0 auto; }
+
+  /*----------- common responsive end -----------*/
+  /*----------- navbar part start -----------*/
+  #navbar {
+    padding: 14px 0; }
+    #navbar .navbar-brand img {
+      width: 80%; }
+    #navbar button {
+      padding: 0; }
+      #navbar button .navbar-toggler-icon {
+        width: auto;
+        height: auto; }
+        #navbar button .navbar-toggler-icon i {
+          font-size: 25px;
+          -webkit-transition: linear 0.4s;
+          transition: linear 0.4s; }
+        #navbar button .navbar-toggler-icon:hover i {
+          color: #ef3e78; }
+      #navbar button:focus {
+        outline: none; }
+    #navbar ul {
+      margin-top: 12px; }
+      #navbar ul li a {
+        padding: 10px 0;
+        margin-left: 10px; }
+      #navbar ul li ul {
+        bottom: -25px;
+        left: -5px;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        z-index: 999; }
+        #navbar ul li ul li a {
+          background: #999999;
+          padding: 4px 8px; }
+      #navbar ul #check_status a {
+        margin-left: 0;
+        width: 100%;
+        text-align: center; }
+
+  /*----------- navbar part end -----------*/
+  /*----------- banner part start -----------*/
+  #banner_part {
+    margin-top: 58px; }
+    #banner_part .text {
+      padding: 120px 0; }
+      #banner_part .text h2 {
+        font-size: 55px; }
+      #banner_part .text p {
+        padding: 20px 0; }
+
+  /*----------- banner part end -----------*/
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0; }
+    #about_part .about_text .details p:last-child {
+      padding: 16px 0; }
+
+  /*----------- about part end -----------*/
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px; }
+    #coses_part .coses_part {
+      padding-top: 60px;
+      padding-bottom: 30px; }
+      #coses_part .coses_part .table_content {
+        overflow-x: auto; }
+        #coses_part .coses_part .table_content table {
+          margin-bottom: 20px; }
+          #coses_part .coses_part .table_content table thead tr th {
+            font-size: 22px; }
+            #coses_part .coses_part .table_content table thead tr th:first-child {
+              padding-left: 30px; }
+          #coses_part .coses_part .table_content table tbody tr th,
+          #coses_part .coses_part .table_content table tbody tr td {
+            font-size: 16px; }
+      #coses_part .coses_part .coses_btn {
+        margin-top: 30px; }
+
+  /*----------- coses part end -----------*/
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px; }
+    #symp_part .symp_img {
+      margin: 60px auto auto auto; }
+
+  /*----------- symp part end -----------*/
+  /*----------- preve part start -----------*/
+  #preve_part .preve_part {
+    padding-top: 60px;
+    padding-bottom: 0; }
+    #preve_part .preve_part .preve_item .img {
+      text-align: center; }
+      #preve_part .preve_part .preve_item .img img {
+        width: 100%;
+        height: 100%; }
+    #preve_part .preve_part .preve_item .text {
+      width: 100%;
+      margin-top: 16px; }
+      #preve_part .preve_part .preve_item .text h4 {
+        font-size: 20px; }
+      #preve_part .preve_part .preve_item .text p {
+        font-size: 15px; }
+
+  /*----------- preve part end -----------*/
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px; }
+    #doctors_part .row [class|="col"] {
+      margin-bottom: 100px; }
+      #doctors_part .row [class|="col"]:last-child {
+        margin-bottom: 0; }
+    #doctors_part .doctors_item .doctor_img {
+      width: 400px;
+      margin: 0 auto; }
+    #doctors_part .doctors_item .doctor_text {
+      width: 50%; }
+
+  /*----------- doctors part end -----------*/
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px; }
+    #updates_part .left_content {
+      width: 480px; }
+      #updates_part .left_content .content_text h3 {
+        font-size: 32px; }
+    #updates_part .left_content,
+    #updates_part .right_content {
+      margin: auto auto 30px auto; }
+    #updates_part .right_content:last-child {
+      padding-top: 0; }
+    #updates_part .right_content .date {
+      margin-top: 10px; }
+    #updates_part .updates_btn {
+      margin-top: 0; }
+
+  /*----------- updates part end -----------*/
+  /*----------- footer part start -----------*/
+  #footer_part {
+    font-size: 16px; }
+    #footer_part .footer_text .img img {
+      width: 110px; }
+    #footer_part .footer_text .footer_details p:first-child {
+      padding: 16px 0; }
+    #footer_part .footer_links ul li {
+      margin-top: 16px; }
+    #footer_part .contact ul li {
+      margin-top: 16px; }
+      #footer_part .contact ul li .contact_icon i {
+        margin-right: 20px; }
+    #footer_part .copyright p {
+      padding: 16px 0; }
+
+  /*----------- footer part end -----------*/ }
+/*------------ end responsive medium device -------------*/
+/*------------ start responsive large device -------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*----------- common responsive star -----------*/
+  .title h2 img {
+    height: 2px; }
+
+  /*----------- common responsive end -----------*/
+  /*----------- navbar part start -----------*/
+  #navbar .navbar-brand img {
+    width: 80%; }
+  #navbar ul li a {
+    margin-left: 18px; }
+  #navbar ul #check_status a {
+    margin-left: 30px; }
+
+  /*----------- navbar part end -----------*/
+  /*----------- banner part start -----------*/
+  #banner_part .text h2 {
+    font-size: 60px; }
+  #banner_part .text p {
+    padding: 20px 0; }
+
+  /*----------- banner part end -----------*/
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0; }
+    #about_part .about_text .details p:last-child {
+      padding: 16px 0; }
+
+  /*----------- about part end -----------*/
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px; }
+    #coses_part .coses_part .table_content {
+      overflow-x: auto; }
+      #coses_part .coses_part .table_content table {
+        margin-bottom: 20px; }
+    #coses_part .coses_part .coses_btn {
+      margin-top: 20px; }
+
+  /*----------- coses part end -----------*/
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px; }
+    #symp_part .symp_img {
+      width: 210px;
+      height: 210px; }
+
+  /*----------- symp part end -----------*/
+  /*----------- preve part start -----------*/
+  #preve_part .preve_part {
+    padding-top: 60px; }
+    #preve_part .preve_part .preve_item .img img {
+      width: 100%;
+      height: 100%; }
+
+  /*----------- preve part end -----------*/
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px; }
+    #doctors_part .doctors_item .doctor_img {
+      width: 290px;
+      height: 330px; }
+
+  /*----------- doctors part end -----------*/
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px; }
+    #updates_part .right_content .date {
+      font-size: 13px; }
+    #updates_part .right_content .content_text h3 {
+      font-size: 26px; }
+    #updates_part .right_content .content_text p {
+      padding: 5px 0; }
+
+  /*----------- updates part end -----------*/
+  /*----------- footer part start -----------*/
+  #footer_part {
+    font-size: 16px; }
+    #footer_part .footer_text .img img {
+      width: 110px; }
+    #footer_part .footer_text .footer_details p:first-child {
+      padding: 16px 0; }
+    #footer_part .footer_links h3 {
+      font-size: 24px; }
+    #footer_part .footer_links ul li {
+      margin-top: 16px; }
+    #footer_part .contact h3 {
+      font-size: 24px; }
+    #footer_part .contact ul li {
+      margin-top: 16px; }
+      #footer_part .contact ul li .contact_icon i {
+        margin-right: 20px; }
+    #footer_part .copyright p {
+      padding: 16px 0; }
+
+  /*----------- footer part end -----------*/ }
+/*------------ end responsive large device -------------*/
+/*------------ end responsive index ------------*/
+/*------------ start responsive index_2 ------------*/
+/*------------ start responsive extra small device ------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  /*------------ start responsive banner part ------------*/
+  #banner_part .text h2 span {
+    font-size: 40px !important; }
+
+  /*------------ end responsive banner part ------------*/
+  /*------------ start responsive about part ------------*/
+  #about_part .about_img {
+    width: 290px;
+    margin: 0 auto; }
+  #about_part .about_text {
+    margin-top: 30px;
+    text-align: center; }
+    #about_part .about_text .title h2 {
+      margin: auto auto 30px auto; }
+
+  /*------------ end responsive about part ------------*/
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px; }
+    #time_part .time_part {
+      padding: 60px 0; }
+      #time_part .time_part #down_btn a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px; }
+      #time_part .time_part .table_items {
+        margin-bottom: 30px; }
+        #time_part .time_part .table_items table tbody tr th {
+          padding: 5px 30px !important; }
+      #time_part .time_part .time_btn a {
+        padding: 8px 30px !important; }
+
+  /*------------ end responsive time part ------------*/
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px; }
+    #service_part .service_card {
+      margin-bottom: 30px !important; }
+      #service_part .service_card:last-child {
+        margin-bottom: 0; }
+
+  /*------------ end responsive service part ------------*/
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px; }
+    #testi_part #down_btn a i {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 22px; }
+    #testi_part .testi_part .testi_slider {
+      width: 290px !important; }
+      #testi_part .testi_part .testi_slider .left,
+      #testi_part .testi_part .testi_slider .right {
+        top: 100%;
+        -webkit-transform: translate(0, 50%);
+                transform: translate(0, 50%);
+        font-size: 25px; }
+      #testi_part .testi_part .testi_slider .left {
+        left: 110px; }
+      #testi_part .testi_part .testi_slider .right {
+        right: 110px; }
+    #testi_part .testi_part .slick-slide {
+      width: 290px !important; }
+    #testi_part .testi_part .testi_items .slider_text {
+      width: auto;
+      padding: 16px 10px; }
+      #testi_part .testi_part .testi_items .slider_text .quote_btn {
+        top: 0;
+        left: 160px;
+        -webkit-transform: translate(0%, -50%);
+                transform: translate(0%, -50%); }
+        #testi_part .testi_part .testi_items .slider_text .quote_btn i {
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 20px; }
+    #testi_part .testi_part .slider_text {
+      width: 300px; }
+
+  /*------------ end responsive testi part ------------*/ }
+/*------------ start responsive extra small device ------------*/
+/*------------ start responsive small device ------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /*------------ start responsive banner part ------------*/
+  #banner_part .text h2 span {
+    font-size: 40px !important; }
+
+  /*------------ end responsive banner part ------------*/
+  /*------------ start responsive about part ------------*/
+  #about_part .about_img {
+    width: 350px;
+    margin: 0 auto; }
+  #about_part .about_text {
+    margin-top: 30px;
+    text-align: center; }
+    #about_part .about_text .title h2 {
+      margin: auto auto 30px auto; }
+
+  /*------------ end responsive about part ------------*/
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px; }
+    #time_part .time_part {
+      padding: 60px 0; }
+      #time_part .time_part #down_btn a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px; }
+      #time_part .time_part .table_items {
+        margin-bottom: 30px; }
+        #time_part .time_part .table_items table tbody tr th {
+          padding: 5px 30px !important; }
+      #time_part .time_part .time_btn a {
+        padding: 8px 30px !important; }
+
+  /*------------ end responsive time part ------------*/
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px; }
+    #service_part .service_card {
+      margin: auto auto 30px auto !important;
+      width: 450px; }
+      #service_part .service_card:last-child {
+        margin-bottom: 0; }
+
+  /*------------ end responsive service part ------------*/
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px; }
+    #testi_part #down_btn a i {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 22px; }
+    #testi_part .testi_part .testi_slider {
+      width: 450px !important; }
+      #testi_part .testi_part .testi_slider .left,
+      #testi_part .testi_part .testi_slider .right {
+        top: 100%;
+        -webkit-transform: translate(0, 50%);
+                transform: translate(0, 50%);
+        font-size: 25px; }
+      #testi_part .testi_part .testi_slider .left {
+        left: 180px; }
+      #testi_part .testi_part .testi_slider .right {
+        right: 180px; }
+    #testi_part .testi_part .slick-slide {
+      width: 450px !important; }
+    #testi_part .testi_part .testi_items .slider_text {
+      width: auto;
+      padding: 16px 10px; }
+      #testi_part .testi_part .testi_items .slider_text .quote_btn {
+        top: 0;
+        left: 160px;
+        -webkit-transform: translate(0%, -50%);
+                transform: translate(0%, -50%); }
+        #testi_part .testi_part .testi_items .slider_text .quote_btn i {
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 20px; }
+    #testi_part .testi_part .slider_text {
+      width: 300px; }
+
+  /*------------ end responsive testi part ------------*/ }
+/*------------ start responsive small device ------------*/
+/*------------ start responsive medium device ------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*------------ start responsive banner part ------------*/
+  #banner_part .text h2 span {
+    font-size: 40px !important; }
+
+  /*------------ end responsive banner part ------------*/
+  /*------------ start responsive about part ------------*/
+  #about_part .about_img {
+    height: auto; }
+  #about_part .about_text .title h2 {
+    margin: auto auto 30px auto; }
+
+  /*------------ end responsive about part ------------*/
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px; }
+    #time_part .time_part {
+      padding: 60px 0; }
+      #time_part .time_part .table_items {
+        margin-bottom: 30px; }
+        #time_part .time_part .table_items table tbody tr th {
+          padding: 5px 30px !important; }
+
+  /*------------ end responsive time part ------------*/
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px; }
+    #service_part .service_card {
+      margin: auto auto 30px auto !important; }
+      #service_part .service_card:last-child {
+        margin-bottom: 0; }
+
+  /*------------ end responsive service part ------------*/
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px; }
+    #testi_part .testi_part .testi_slider {
+      width: 690px !important; }
+      #testi_part .testi_part .testi_slider .left,
+      #testi_part .testi_part .testi_slider .right {
+        top: 100%;
+        -webkit-transform: translate(0, 50%);
+                transform: translate(0, 50%); }
+      #testi_part .testi_part .testi_slider .left {
+        left: 300px; }
+      #testi_part .testi_part .testi_slider .right {
+        right: 300px; }
+    #testi_part .testi_part .slick-slide {
+      width: 690px !important; }
+
+  /*------------ end responsive testi part ------------*/ }
+/*------------ start responsive medium device ------------*/
+/*------------ start responsive large device ------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*------------ start responsive banner part ------------*/
+  /*------------ end responsive banner part ------------*/
+  /*------------ start responsive about part ------------*/
+  /*------------ end responsive about part ------------*/
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px; }
+    #time_part .time_part {
+      padding: 60px 0; }
+
+  /*------------ end responsive time part ------------*/
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px; }
+
+  /*------------ end responsive service part ------------*/
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px; }
+
+  /*------------ end responsive testi part ------------*/ }
+/*------------ start responsive large device ------------*/
+/*------------ end responsive index_2 ------------*/
+/*------------ start responsive letest blogs2 ------------*/
+/*------------ start responsive extra small device ------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px; }
+    #blog_part .row {
+      margin-top: 0;
+      margin-bottom: 0; }
+    #blog_part .blog_items {
+      margin-bottom: 30px; }
+      #blog_part .blog_items .blog_details {
+        text-align: center; }
+
+  /*------------ end responsive blog part ------------*/ }
+/*------------ end responsive extra small device ------------*/
+/*------------ start responsive small device ------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px; }
+    #blog_part .row {
+      margin-top: 0;
+      margin-bottom: 0; }
+    #blog_part .blog_items {
+      margin-bottom: 30px; }
+      #blog_part .blog_items .blog_details {
+        text-align: center; }
+
+  /*------------ end responsive blog part ------------*/ }
+/*------------ end responsive small device ------------*/
+/*------------ start responsive medium device ------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px; }
+    #blog_part .row {
+      margin-top: 0;
+      margin-bottom: 0; }
+    #blog_part .blog_items {
+      margin-bottom: 30px; }
+      #blog_part .blog_items .blog_details {
+        text-align: center; }
+
+  /*------------ end responsive blog part ------------*/ }
+/*------------ end responsive medium device ------------*/
+/*------------ end responsive letest blogs2 ------------*/
+/*------------ start responsive blog details ------------*/
+/*------------ start responsive extra small device ------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  #details_part .details_items {
+    margin: 40px 0; }
+    #details_part .details_items .img_details {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .img_details .details_box {
+        margin-bottom: 16px; }
+        #details_part .details_items .img_details .details_box:last-child {
+          margin: 0 auto; }
+    #details_part .details_items .details_text {
+      margin: 20px 0 20px 0; }
+    #details_part .details_items .details_blog .blog_items {
+      margin-bottom: 30px; }
+      #details_part .details_items .details_blog .blog_items .p_first {
+        margin: 8px 0 !important; }
+    #details_part .details_items .share_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .share_box .share_text {
+        margin-bottom: 10px; }
+    #details_part .details_items .tag_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-top: 0; }
+      #details_part .details_items .tag_box .tag_text {
+        margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_items a p {
+        padding-left: 13px !important;
+        padding-right: 13px !important; }
+    #details_part .details_items .comments .comments_left .c_img_details {
+      margin-top: 10px; }
+    #details_part .details_items .comments .comments_right .user_icon {
+      margin-bottom: 30px; }
+    #details_part .details_items .updates {
+      margin-top: 0; }
+      #details_part .details_items .updates .updates_items {
+        margin-bottom: 30px;
+        text-align: center; }
+        #details_part .details_items .updates .updates_items .u_img_text {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #details_part .details_items .updates .updates_items .u_img_text .text_content {
+            margin: 0 auto; }
+      #details_part .details_items .updates .updates_btn {
+        margin-top: 0; } }
+/*------------ end responsive extra small device ------------*/
+/*------------ start responsive small device ------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  #details_part .details_items {
+    margin: 40px 0; }
+    #details_part .details_items .img_details {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .img_details .details_box {
+        margin-bottom: 16px; }
+        #details_part .details_items .img_details .details_box:last-child {
+          margin: 0 auto; }
+    #details_part .details_items .details_text {
+      margin: 20px 0 20px 0; }
+    #details_part .details_items .details_blog .blog_items {
+      margin-bottom: 30px; }
+      #details_part .details_items .details_blog .blog_items .p_first {
+        margin: 8px 0 !important; }
+    #details_part .details_items .share_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .share_box .share_text {
+        margin-bottom: 10px; }
+    #details_part .details_items .tag_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-top: 0; }
+      #details_part .details_items .tag_box .tag_text {
+        margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_items a p {
+        padding-left: 13px !important;
+        padding-right: 13px !important; }
+    #details_part .details_items .comments .comments_left .c_img_details {
+      margin-top: 10px; }
+    #details_part .details_items .comments .comments_right .user_icon {
+      margin-bottom: 30px; }
+    #details_part .details_items .updates {
+      margin-top: 0; }
+      #details_part .details_items .updates .updates_items {
+        margin-bottom: 30px;
+        text-align: center; }
+        #details_part .details_items .updates .updates_items .u_img_text {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #details_part .details_items .updates .updates_items .u_img_text .text_content {
+            margin: 0 auto; }
+      #details_part .details_items .updates .updates_btn {
+        margin-top: 0; } }
+/*------------ end responsive small device ------------*/
+/*------------ start responsive medium device ------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #details_part .details_items {
+    margin: 40px 0; }
+    #details_part .details_items .img_details {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .img_details .details_box {
+        margin-bottom: 16px; }
+    #details_part .details_items .details_text {
+      margin: 20px 0 20px 0; }
+    #details_part .details_items .details_blog .blog_items {
+      margin-bottom: 30px; }
+      #details_part .details_items .details_blog .blog_items .p_first {
+        margin: 8px 0 !important; }
+    #details_part .details_items .share_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      #details_part .details_items .share_box .share_text {
+        margin-bottom: 10px; }
+    #details_part .details_items .tag_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-top: 0;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      #details_part .details_items .tag_box .tag_text {
+        margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_items a p {
+        padding-left: 13px !important;
+        padding-right: 13px !important; }
+    #details_part .details_items .comments .comments_left .c_img_details {
+      margin-top: 10px; }
+    #details_part .details_items .comments .comments_right .user_icon {
+      margin-bottom: 30px; }
+    #details_part .details_items .updates {
+      margin-top: 0; }
+      #details_part .details_items .updates .updates_items {
+        width: 500px;
+        margin: auto auto 30px auto;
+        text-align: center; }
+        #details_part .details_items .updates .updates_items .u_img_text {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #details_part .details_items .updates .updates_items .u_img_text .text_content {
+            margin: 0 auto; }
+      #details_part .details_items .updates .updates_btn {
+        margin-top: 0; } }
+/*------------ end responsive medium device ------------*/
+/*------------ start responsive large device ------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #details_part .details_items .share_box {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    #details_part .details_items .share_box .share_text {
+      margin-bottom: 10px; }
+      #details_part .details_items .share_box .share_text::after {
+        display: none; }
+  #details_part .details_items .tag_box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    #details_part .details_items .tag_box .tag_text {
+      margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_text::after {
+        display: none; }
+    #details_part .details_items .tag_box .tag_items a p {
+      padding-left: 13px !important;
+      padding-right: 13px !important; } }
+/*------------ end responsive large device ------------*/
+/*------------ end responsive blog details ------------*/
+
+/*# sourceMappingURL=responsive.css.map */

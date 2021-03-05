@@ -1,0 +1,1829 @@
+/*------------ start responsive index ------------*/
+
+/*------------ start responsive extra small device -------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  /*----------- common responsive star -----------*/
+  .title {
+    h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      text-align: center;
+      img {
+        width: 100%;
+        height: 2px;
+        margin: 0 auto;
+      }
+    }
+  }
+  /*----------- common responsive end -----------*/
+
+  /*----------- navbar part start -----------*/
+  #navbar {
+    padding: 14px 0;
+    [class|="container"] {
+      padding: 0 15px;
+    }
+    .navbar-brand {
+      img {
+        width: 70%;
+      }
+    }
+    button {
+      padding: 0;
+      .navbar-toggler-icon {
+        width: auto;
+        height: auto;
+        i {
+          font-size: 25px;
+          transition: linear 0.4s;
+        }
+        &:hover {
+          i {
+            color: #ef3e78;
+          }
+        }
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    ul {
+      margin-top: 12px;
+      li {
+        a {
+          padding: 5px 0;
+          margin-left: 10px;
+        }
+        ul {
+          bottom: -25px;
+          left: -5px;
+          transform: translateX(0);
+          z-index: 999;
+          li {
+            a {
+              background: #999999;
+              padding: 4px 8px;
+            }
+          }
+        }
+      }
+      #check_status {
+        a {
+          padding: 5px 0 !important;
+          margin-left: 0;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  /*----------- navbar part end -----------*/
+
+  /*----------- banner part start -----------*/
+  #banner_part {
+    margin-top: 56px;
+    .text {
+      padding: 60px 0;
+      h5 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 46px;
+      }
+      p {
+        padding: 20px 0;
+      }
+      a {
+        padding: 8px 30px;
+      }
+    }
+  }
+  /*----------- banner part end -----------*/
+
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0;
+    .about_text {
+      .details {
+        p {
+          &:last-child {
+            padding: 16px 0;
+          }
+        }
+      }
+      a {
+        padding: 8px 30px;
+      }
+    }
+  }
+  /*----------- about part end -----------*/
+
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px;
+    .symp_img {
+      margin-top: 60px;
+      margin: 60px auto auto auto;
+    }
+    .symp_text {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  /*----------- symp part end -----------*/
+
+  /*----------- preve part start -----------*/
+  #preve_part {
+    .preve_part {
+      padding-top: 60px;
+      padding-bottom: 0;
+      #down_btn {
+        i {
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 22px;
+        }
+      }
+      .preve_item {
+        .img {
+          text-align: center;
+        }
+        .text {
+          text-align: center;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+  /*----------- preve part end -----------*/
+
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px;
+    .coses_part {
+      padding-top: 60px;
+      padding-bottom: 30px;
+      #down_btn {
+        a {
+          i {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 22px;
+          }
+        }
+      }
+      .table_content {
+        overflow-x: auto;
+        table {
+          margin-bottom: 20px;
+          thead {
+            tr {
+              th {
+                font-size: 22px;
+                &:first-child {
+                  padding-left: 30px;
+                }
+              }
+            }
+          }
+          tbody {
+            tr {
+              th,
+              td {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .coses_btn {
+        margin-top: 20px;
+        a {
+          padding: 8px 30px;
+        }
+      }
+    }
+  }
+  /*----------- coses part end -----------*/
+
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px;
+    .row {
+      [class|="col"] {
+        margin-bottom: 80px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .doctors_item {
+      .doctor_img {
+        width: auto;
+      }
+    }
+  }
+  /*----------- doctors part end -----------*/
+
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px;
+    .left_content {
+      .content_text {
+        h3 {
+          font-size: 26px;
+        }
+      }
+    }
+    .left_content,
+    .right_content {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .right_content {
+      &:last-child {
+        padding-top: 0;
+      }
+      .date {
+        margin-top: 10px;
+      }
+    }
+    .updates_btn {
+      margin-top: 0;
+      a {
+        padding: 8px 30px;
+      }
+    }
+  }
+  /*----------- updates part end -----------*/
+
+  /*----------- footer part start -----------*/
+  #footer_part {
+    .footer_text {
+      .img {
+        img {
+          width: 90px;
+        }
+      }
+      .footer_details {
+        p {
+          &:first-child {
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+    .footer_links {
+      ul {
+        li {
+          margin-top: 16px;
+        }
+      }
+    }
+    .contact {
+      ul {
+        li {
+          margin-top: 16px;
+          .contact_icon {
+            i {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      p {
+        padding: 16px 0;
+      }
+    }
+  }
+  /*----------- footer part end -----------*/
+}
+/*------------ end responsive extra small device -------------*/
+
+/*------------ start responsive small device -------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /*----------- common responsive star -----------*/
+  .title {
+    h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      text-align: center;
+      img {
+        width: 100%;
+        height: 2px;
+        margin: 0 auto;
+      }
+    }
+  }
+  /*----------- common responsive end -----------*/
+
+  /*----------- navbar part start -----------*/
+  #navbar {
+    padding: 14px 0;
+    [class|="container"] {
+      padding: 0 15px;
+    }
+    .navbar-brand {
+      img {
+        width: 70%;
+      }
+    }
+    button {
+      padding: 0;
+      .navbar-toggler-icon {
+        width: auto;
+        height: auto;
+        i {
+          font-size: 25px;
+          transition: linear 0.4s;
+        }
+        &:hover {
+          i {
+            color: #ef3e78;
+          }
+        }
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    ul {
+      margin-top: 12px;
+      li {
+        a {
+          padding: 5px 0;
+          margin-left: 10px;
+        }
+        ul {
+          bottom: -25px;
+          left: -5px;
+          transform: translateX(0);
+          z-index: 999;
+          li {
+            a {
+              background: #999999;
+              padding: 4px 8px;
+            }
+          }
+        }
+      }
+      #check_status {
+        a {
+          padding: 5px 0 !important;
+          margin-left: 0;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  /*----------- navbar part end -----------*/
+
+  /*----------- banner part start -----------*/
+  #banner_part {
+    margin-top: 56px;
+    .text {
+      padding: 60px 0;
+      h5 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 46px;
+      }
+      p {
+        padding: 20px 0;
+      }
+      a {
+        padding: 8px 30px;
+      }
+    }
+  }
+  /*----------- banner part end -----------*/
+
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0;
+    .about_text {
+      .details {
+        p {
+          &:last-child {
+            padding: 16px 0;
+          }
+        }
+      }
+      a {
+        padding: 8px 30px;
+      }
+    }
+  }
+  /*----------- about part end -----------*/
+
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px;
+    .symp_img {
+      width: 220px;
+      height: 220px;
+      margin-top: 60px;
+      margin: 60px auto auto auto;
+    }
+    .symp_text {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  /*----------- symp part end -----------*/
+
+  /*----------- preve part start -----------*/
+  #preve_part {
+    .preve_part {
+      padding-top: 60px;
+      padding-bottom: 0;
+      #down_btn {
+        i {
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 22px;
+        }
+      }
+      .preve_item {
+        .img {
+          text-align: center;
+        }
+        .text {
+          width: 100%;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+  /*----------- preve part end -----------*/
+
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px;
+    .coses_part {
+      padding-top: 60px;
+      padding-bottom: 30px;
+      #down_btn {
+        a {
+          i {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 22px;
+          }
+        }
+      }
+      .table_content {
+        overflow-x: auto;
+        table {
+          margin-bottom: 20px;
+          thead {
+            tr {
+              th {
+                font-size: 22px;
+                &:first-child {
+                  padding-left: 30px;
+                }
+              }
+            }
+          }
+          tbody {
+            tr {
+              th,
+              td {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .coses_btn {
+        margin-top: 20px;
+        a {
+          padding: 8px 30px;
+        }
+      }
+    }
+  }
+  /*----------- coses part end -----------*/
+
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px;
+    .row {
+      [class|="col"] {
+        margin-bottom: 100px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .doctors_item {
+      .doctor_img {
+        width: 400px;
+        margin: 0 auto;
+      }
+      .doctor_text {
+        width: 50%;
+      }
+    }
+  }
+  /*----------- doctors part end -----------*/
+
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px;
+    .left_content {
+      .content_text {
+        h3 {
+          font-size: 26px;
+        }
+      }
+    }
+    .left_content,
+    .right_content {
+      width: 400px;
+      margin: auto auto 30px auto;
+      text-align: center;
+    }
+    .right_content {
+      &:last-child {
+        padding-top: 0;
+      }
+      .date {
+        margin-top: 10px;
+      }
+    }
+    .updates_btn {
+      margin-top: 0;
+      a {
+        padding: 8px 30px;
+      }
+    }
+  }
+  /*----------- updates part end -----------*/
+
+  /*----------- footer part start -----------*/
+  #footer_part {
+    font-size: 16px;
+    .footer_text {
+      .img {
+        img {
+          width: 90px;
+        }
+      }
+      .footer_details {
+        p {
+          &:first-child {
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+    .footer_links {
+      ul {
+        li {
+          margin-top: 16px;
+        }
+      }
+    }
+    .contact {
+      ul {
+        li {
+          margin-top: 16px;
+          .contact_icon {
+            i {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      p {
+        padding: 16px 0;
+      }
+    }
+  }
+  /*----------- footer part end -----------*/
+}
+/*------------ end responsive small device -------------*/
+
+/*------------ start responsive medium device -------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*----------- common responsive star -----------*/
+  .title {
+    h2 {
+      margin-bottom: 30px;
+      text-align: center;
+      img {
+        width: 100%;
+        height: 2px;
+        margin: 0 auto;
+      }
+    }
+  }
+  /*----------- common responsive end -----------*/
+
+  /*----------- navbar part start -----------*/
+  #navbar {
+    padding: 14px 0;
+    .navbar-brand {
+      img {
+        width: 80%;
+      }
+    }
+    button {
+      padding: 0;
+      .navbar-toggler-icon {
+        width: auto;
+        height: auto;
+        i {
+          font-size: 25px;
+          transition: linear 0.4s;
+        }
+        &:hover {
+          i {
+            color: #ef3e78;
+          }
+        }
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    ul {
+      margin-top: 12px;
+      li {
+        a {
+          padding: 10px 0;
+          margin-left: 10px;
+        }
+        ul {
+          bottom: -25px;
+          left: -5px;
+          transform: translateX(0);
+          z-index: 999;
+          li {
+            a {
+              background: #999999;
+              padding: 4px 8px;
+            }
+          }
+        }
+      }
+      #check_status {
+        a {
+          margin-left: 0;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  /*----------- navbar part end -----------*/
+
+  /*----------- banner part start -----------*/
+  #banner_part {
+    margin-top: 58px;
+    .text {
+      padding: 120px 0;
+      h2 {
+        font-size: 55px;
+      }
+      p {
+        padding: 20px 0;
+      }
+    }
+  }
+  /*----------- banner part end -----------*/
+
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0;
+    .about_text {
+      .details {
+        p {
+          &:last-child {
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+  }
+  /*----------- about part end -----------*/
+
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px;
+    .coses_part {
+      padding-top: 60px;
+      padding-bottom: 30px;
+      .table_content {
+        overflow-x: auto;
+        table {
+          margin-bottom: 20px;
+          thead {
+            tr {
+              th {
+                font-size: 22px;
+                &:first-child {
+                  padding-left: 30px;
+                }
+              }
+            }
+          }
+          tbody {
+            tr {
+              th,
+              td {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .coses_btn {
+        margin-top: 30px;
+      }
+    }
+  }
+  /*----------- coses part end -----------*/
+
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px;
+    .symp_img {
+      margin: 60px auto auto auto;
+    }
+  }
+  /*----------- symp part end -----------*/
+
+  /*----------- preve part start -----------*/
+  #preve_part {
+    .preve_part {
+      padding-top: 60px;
+      padding-bottom: 0;
+      .preve_item {
+        .img {
+          text-align: center;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .text {
+          width: 100%;
+          margin-top: 16px;
+          h4 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  /*----------- preve part end -----------*/
+
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px;
+    .row {
+      [class|="col"] {
+        margin-bottom: 100px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .doctors_item {
+      .doctor_img {
+        width: 400px;
+        margin: 0 auto;
+      }
+      .doctor_text {
+        width: 50%;
+      }
+    }
+  }
+  /*----------- doctors part end -----------*/
+
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px;
+    .left_content {
+      width: 480px;
+      .content_text {
+        h3 {
+          font-size: 32px;
+        }
+      }
+    }
+    .left_content,
+    .right_content {
+      margin: auto auto 30px auto;
+    }
+    .right_content {
+      &:last-child {
+        padding-top: 0;
+      }
+      .date {
+        margin-top: 10px;
+      }
+    }
+    .updates_btn {
+      margin-top: 0;
+    }
+  }
+  /*----------- updates part end -----------*/
+
+  /*----------- footer part start -----------*/
+  #footer_part {
+    font-size: 16px;
+    .footer_text {
+      .img {
+        img {
+          width: 110px;
+        }
+      }
+      .footer_details {
+        p {
+          &:first-child {
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+    .footer_links {
+      ul {
+        li {
+          margin-top: 16px;
+        }
+      }
+    }
+    .contact {
+      ul {
+        li {
+          margin-top: 16px;
+          .contact_icon {
+            i {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      p {
+        padding: 16px 0;
+      }
+    }
+  }
+  /*----------- footer part end -----------*/
+}
+/*------------ end responsive medium device -------------*/
+
+/*------------ start responsive large device -------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*----------- common responsive star -----------*/
+  .title {
+    h2 {
+      img {
+        height: 2px;
+      }
+    }
+  }
+  /*----------- common responsive end -----------*/
+
+  /*----------- navbar part start -----------*/
+  #navbar {
+    .navbar-brand {
+      img {
+        width: 80%;
+      }
+    }
+    ul {
+      li {
+        a {
+          margin-left: 18px;
+        }
+      }
+      #check_status {
+        a {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+  /*----------- navbar part end -----------*/
+
+  /*----------- banner part start -----------*/
+  #banner_part {
+    .text {
+      h2 {
+        font-size: 60px;
+      }
+      p {
+        padding: 20px 0;
+      }
+    }
+  }
+  /*----------- banner part end -----------*/
+
+  /*----------- about part start -----------*/
+  #about_part {
+    padding: 60px 0;
+    .about_text {
+      .details {
+        p {
+          &:last-child {
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+  }
+  /*----------- about part end -----------*/
+
+  /*----------- coses part start -----------*/
+  #coses_part {
+    padding-bottom: 60px;
+    .coses_part {
+      .table_content {
+        overflow-x: auto;
+        table {
+          margin-bottom: 20px;
+        }
+      }
+      .coses_btn {
+        margin-top: 20px;
+      }
+    }
+  }
+  /*----------- coses part end -----------*/
+
+  /*----------- symp part start -----------*/
+  #symp_part {
+    padding-bottom: 60px;
+    .symp_img {
+      width: 210px;
+      height: 210px;
+    }
+  }
+  /*----------- symp part end -----------*/
+
+  /*----------- preve part start -----------*/
+  #preve_part {
+    .preve_part {
+      padding-top: 60px;
+      .preve_item {
+        .img {
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .text {
+        }
+      }
+    }
+  }
+  /*----------- preve part end -----------*/
+
+  /*----------- doctors part start -----------*/
+  #doctors_part {
+    padding-top: 60px;
+    .doctors_item {
+      .doctor_img {
+        width: 290px;
+        height: 330px;
+      }
+    }
+  }
+  /*----------- doctors part end -----------*/
+
+  /*----------- updates part start -----------*/
+  #updates_part {
+    padding-top: 60px;
+    .right_content {
+      .date {
+        font-size: 13px;
+      }
+      .content_text {
+        h3 {
+          font-size: 26px;
+        }
+        p {
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+  /*----------- updates part end -----------*/
+
+  /*----------- footer part start -----------*/
+  #footer_part {
+    font-size: 16px;
+    .footer_text {
+      .img {
+        img {
+          width: 110px;
+        }
+      }
+      .footer_details {
+        p {
+          &:first-child {
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+    .footer_links {
+      h3 {
+        font-size: 24px;
+      }
+      ul {
+        li {
+          margin-top: 16px;
+        }
+      }
+    }
+    .contact {
+      h3 {
+        font-size: 24px;
+      }
+      ul {
+        li {
+          margin-top: 16px;
+          .contact_icon {
+            i {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      p {
+        padding: 16px 0;
+      }
+    }
+  }
+  /*----------- footer part end -----------*/
+}
+/*------------ end responsive large device -------------*/
+
+/*------------ end responsive index ------------*/
+
+/*------------ start responsive index_2 ------------*/
+
+/*------------ start responsive extra small device ------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  /*------------ start responsive banner part ------------*/
+  #banner_part {
+    .text {
+      h2 {
+        span {
+          font-size: 40px !important;
+        }
+      }
+    }
+  }
+  /*------------ end responsive banner part ------------*/
+
+  /*------------ start responsive about part ------------*/
+  #about_part {
+    .about_img {
+      width: 290px;
+      margin: 0 auto;
+    }
+    .about_text {
+      margin-top: 30px;
+      text-align: center;
+      .title {
+        h2 {
+          margin: auto auto 30px auto;
+        }
+      }
+    }
+  }
+  /*------------ end responsive about part ------------*/
+
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px;
+    .time_part {
+      padding: 60px 0;
+      #down_btn {
+        a {
+          i {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 22px;
+          }
+        }
+      }
+      .table_items {
+        margin-bottom: 30px;
+        table {
+          tbody {
+            tr {
+              th {
+                padding: 5px 30px !important;
+              }
+            }
+          }
+        }
+      }
+      .time_btn {
+        a {
+          padding: 8px 30px !important;
+        }
+      }
+    }
+  }
+  /*------------ end responsive time part ------------*/
+
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px;
+    .service_card {
+      margin-bottom: 30px !important;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  /*------------ end responsive service part ------------*/
+
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px;
+    #down_btn {
+      a {
+        i {
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 22px;
+        }
+      }
+    }
+    .testi_part {
+      .testi_slider {
+        width: 290px !important;
+        .left,
+        .right {
+          top: 100%;
+          transform: translate(0, 50%);
+          font-size: 25px;
+        }
+        .left {
+          left: 110px;
+        }
+        .right {
+          right: 110px;
+        }
+      }
+      .slick-slide {
+        width: 290px !important;
+      }
+      .testi_items {
+        .slider_text {
+          width: auto;
+          padding: 16px 10px;
+          .quote_btn {
+            top: 0;
+            left: 160px;
+            transform: translate(0%, -50%);
+            i {
+              width: 60px;
+              height: 60px;
+              line-height: 60px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .slider_text {
+        width: 300px;
+      }
+    }
+  }
+  /*------------ end responsive testi part ------------*/
+}
+/*------------ start responsive extra small device ------------*/
+
+/*------------ start responsive small device ------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /*------------ start responsive banner part ------------*/
+  #banner_part {
+    .text {
+      h2 {
+        span {
+          font-size: 40px !important;
+        }
+      }
+    }
+  }
+  /*------------ end responsive banner part ------------*/
+
+  /*------------ start responsive about part ------------*/
+  #about_part {
+    .about_img {
+      width: 350px;
+      margin: 0 auto;
+    }
+    .about_text {
+      margin-top: 30px;
+      text-align: center;
+      .title {
+        h2 {
+          margin: auto auto 30px auto;
+        }
+      }
+    }
+  }
+  /*------------ end responsive about part ------------*/
+
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px;
+    .time_part {
+      padding: 60px 0;
+      #down_btn {
+        a {
+          i {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 22px;
+          }
+        }
+      }
+      .table_items {
+        margin-bottom: 30px;
+        table {
+          tbody {
+            tr {
+              th {
+                padding: 5px 30px !important;
+              }
+            }
+          }
+        }
+      }
+      .time_btn {
+        a {
+          padding: 8px 30px !important;
+        }
+      }
+    }
+  }
+  /*------------ end responsive time part ------------*/
+
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px;
+    .service_card {
+      margin: auto auto 30px auto !important;
+      width: 450px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  /*------------ end responsive service part ------------*/
+
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px;
+    #down_btn {
+      a {
+        i {
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 22px;
+        }
+      }
+    }
+    .testi_part {
+      .testi_slider {
+        width: 450px !important;
+        .left,
+        .right {
+          top: 100%;
+          transform: translate(0, 50%);
+          font-size: 25px;
+        }
+        .left {
+          left: 180px;
+        }
+        .right {
+          right: 180px;
+        }
+      }
+      .slick-slide {
+        width: 450px !important;
+      }
+      .testi_items {
+        .slider_text {
+          width: auto;
+          padding: 16px 10px;
+          .quote_btn {
+            top: 0;
+            left: 160px;
+            transform: translate(0%, -50%);
+            i {
+              width: 60px;
+              height: 60px;
+              line-height: 60px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .slider_text {
+        width: 300px;
+      }
+    }
+  }
+  /*------------ end responsive testi part ------------*/
+}
+/*------------ start responsive small device ------------*/
+
+/*------------ start responsive medium device ------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*------------ start responsive banner part ------------*/
+  #banner_part {
+    .text {
+      h2 {
+        span {
+          font-size: 40px !important;
+        }
+      }
+    }
+  }
+  /*------------ end responsive banner part ------------*/
+
+  /*------------ start responsive about part ------------*/
+  #about_part {
+    .about_img {
+      height: auto;
+    }
+    .about_text {
+      .title {
+        h2 {
+          margin: auto auto 30px auto;
+        }
+      }
+    }
+  }
+  /*------------ end responsive about part ------------*/
+
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px;
+    .time_part {
+      padding: 60px 0;
+      .table_items {
+        margin-bottom: 30px;
+        table {
+          tbody {
+            tr {
+              th {
+                padding: 5px 30px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /*------------ end responsive time part ------------*/
+
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px;
+    .service_card {
+      margin: auto auto 30px auto !important;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  /*------------ end responsive service part ------------*/
+
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px;
+    .testi_part {
+      .testi_slider {
+        width: 690px !important;
+        .left,
+        .right {
+          top: 100%;
+          transform: translate(0, 50%);
+        }
+        .left {
+          left: 300px;
+        }
+        .right {
+          right: 300px;
+        }
+      }
+      .slick-slide {
+        width: 690px !important;
+      }
+    }
+  }
+  /*------------ end responsive testi part ------------*/
+}
+/*------------ start responsive medium device ------------*/
+
+/*------------ start responsive large device ------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*------------ start responsive banner part ------------*/
+  /*------------ end responsive banner part ------------*/
+
+  /*------------ start responsive about part ------------*/
+  /*------------ end responsive about part ------------*/
+
+  /*------------ start responsive time part ------------*/
+  #time_part {
+    padding-bottom: 60px;
+    .time_part {
+      padding: 60px 0;
+    }
+  }
+  /*------------ end responsive time part ------------*/
+
+  /*------------ start responsive service part ------------*/
+  #service_part {
+    padding-bottom: 60px;
+  }
+  /*------------ end responsive service part ------------*/
+
+  /*------------ start responsive testi part ------------*/
+  #testi_part {
+    padding-top: 60px;
+  }
+  /*------------ end responsive testi part ------------*/
+}
+/*------------ start responsive large device ------------*/
+
+/*------------ end responsive index_2 ------------*/
+
+/*------------ start responsive letest blogs2 ------------*/
+
+/*------------ start responsive extra small device ------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px;
+    .row {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .blog_items {
+      margin-bottom: 30px;
+      .blog_details {
+        text-align: center;
+      }
+    }
+  }
+  /*------------ end responsive blog part ------------*/
+}
+/*------------ end responsive extra small device ------------*/
+
+/*------------ start responsive small device ------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px;
+    .row {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .blog_items {
+      margin-bottom: 30px;
+      .blog_details {
+        text-align: center;
+      }
+    }
+  }
+  /*------------ end responsive blog part ------------*/
+}
+/*------------ end responsive small device ------------*/
+
+/*------------ start responsive medium device ------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px;
+    .row {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .blog_items {
+      margin-bottom: 30px;
+      .blog_details {
+        text-align: center;
+      }
+    }
+  }
+  /*------------ end responsive blog part ------------*/
+}
+/*------------ end responsive medium device ------------*/
+
+/*------------ end responsive letest blogs2 ------------*/
+
+/*------------ start responsive blog details ------------*/
+
+/*------------ start responsive extra small device ------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  #details_part {
+    .details_items {
+      margin: 40px 0;
+      .img_details {
+        flex-wrap: wrap;
+        .details_box {
+          margin-bottom: 16px;
+          &:last-child {
+            margin: 0 auto;
+          }
+        }
+      }
+      .details_text {
+        margin: 20px 0 20px 0;
+      }
+      .details_blog {
+        .blog_items {
+          margin-bottom: 30px;
+          .p_first {
+            margin: 8px 0 !important;
+          }
+        }
+      }
+      .share_box {
+        flex-wrap: wrap;
+        .share_text {
+          margin-bottom: 10px;
+        }
+      }
+      .tag_box {
+        flex-wrap: wrap;
+        margin-top: 0;
+        .tag_text {
+          margin-bottom: 10px;
+        }
+        .tag_items {
+          a {
+            p {
+              padding-left: 13px !important;
+              padding-right: 13px !important;
+            }
+          }
+        }
+      }
+      .comments {
+        .comments_left {
+          .c_img_details {
+            margin-top: 10px;
+          }
+        }
+        .comments_right {
+          .user_icon {
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .updates {
+        margin-top: 0;
+        .updates_items {
+          margin-bottom: 30px;
+          text-align: center;
+          .u_img_text {
+            flex-wrap: wrap;
+            .text_content {
+              margin: 0 auto;
+            }
+          }
+        }
+        .updates_btn {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+/*------------ end responsive extra small device ------------*/
+
+/*------------ start responsive small device ------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  #details_part {
+    .details_items {
+      margin: 40px 0;
+      .img_details {
+        flex-wrap: wrap;
+        .details_box {
+          margin-bottom: 16px;
+          &:last-child {
+            margin: 0 auto;
+          }
+        }
+      }
+      .details_text {
+        margin: 20px 0 20px 0;
+      }
+      .details_blog {
+        .blog_items {
+          margin-bottom: 30px;
+          .p_first {
+            margin: 8px 0 !important;
+          }
+        }
+      }
+      .share_box {
+        flex-wrap: wrap;
+        .share_text {
+          margin-bottom: 10px;
+        }
+      }
+      .tag_box {
+        flex-wrap: wrap;
+        margin-top: 0;
+        .tag_text {
+          margin-bottom: 10px;
+        }
+        .tag_items {
+          a {
+            p {
+              padding-left: 13px !important;
+              padding-right: 13px !important;
+            }
+          }
+        }
+      }
+      .comments {
+        .comments_left {
+          .c_img_details {
+            margin-top: 10px;
+          }
+        }
+        .comments_right {
+          .user_icon {
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .updates {
+        margin-top: 0;
+        .updates_items {
+          margin-bottom: 30px;
+          text-align: center;
+          .u_img_text {
+            flex-wrap: wrap;
+            .text_content {
+              margin: 0 auto;
+            }
+          }
+        }
+        .updates_btn {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+/*------------ end responsive small device ------------*/
+
+/*------------ start responsive medium device ------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #details_part {
+    .details_items {
+      margin: 40px 0;
+      .img_details {
+        flex-wrap: wrap;
+        .details_box {
+          margin-bottom: 16px;
+        }
+      }
+      .details_text {
+        margin: 20px 0 20px 0;
+      }
+      .details_blog {
+        .blog_items {
+          margin-bottom: 30px;
+          .p_first {
+            margin: 8px 0 !important;
+          }
+        }
+      }
+      .share_box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .share_text {
+          margin-bottom: 10px;
+        }
+      }
+      .tag_box {
+        flex-wrap: wrap;
+        margin-top: 0;
+        justify-content: space-around;
+        .tag_text {
+          margin-bottom: 10px;
+        }
+        .tag_items {
+          a {
+            p {
+              padding-left: 13px !important;
+              padding-right: 13px !important;
+            }
+          }
+        }
+      }
+      .comments {
+        .comments_left {
+          .c_img_details {
+            margin-top: 10px;
+          }
+        }
+        .comments_right {
+          .user_icon {
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .updates {
+        margin-top: 0;
+        .updates_items {
+          width: 500px;
+          margin: auto auto 30px auto;
+          text-align: center;
+          .u_img_text {
+            flex-wrap: wrap;
+            .text_content {
+              margin: 0 auto;
+            }
+          }
+        }
+        .updates_btn {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+/*------------ end responsive medium device ------------*/
+
+/*------------ start responsive large device ------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #details_part {
+    .details_items {
+      .share_box {
+        justify-content: space-around;
+        .share_text {
+          margin-bottom: 10px;
+          &::after {
+            display: none;
+          }
+        }
+      }
+      .tag_box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .tag_text {
+          margin-bottom: 10px;
+          &::after {
+            display: none;
+          }
+        }
+        .tag_items {
+          a {
+            p {
+              padding-left: 13px !important;
+              padding-right: 13px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*------------ end responsive large device ------------*/
+
+/*------------ end responsive blog details ------------*/
